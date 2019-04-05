@@ -1,3 +1,15 @@
+GOOGLE = {
+    'client_id': '',
+    'client_secret': '',
+    'scope': 'email profile'
+}
+
+FACEBOOK = {
+    'client_id': '',
+    'client_secret': '',
+    'scope': 'email'
+}
+
 TWITTER = {
     'consumer_key': '',
     'consumer_secret': ''
@@ -8,26 +20,14 @@ GITHUB = {
     'client_secret': ''
 }
 
-GOOGLE = {
-    'client_id': '',
-    'client_secret': '',
-    'scope': 'email profile'
+BITBUCKET = {
+    'consumer_key': '',
+    'consumer_secret': ''
 }
 
 YANDEX = {
     'client_id': '',
     'client_secret': ''
-}
-
-FACEBOOK = {
-    'client_id': '',
-    'client_secret': '',
-    'scope': 'email'
-}
-
-BITBUCKET = {
-    'consumer_key': '',
-    'consumer_secret': ''
 }
 
 SESSION_SECRET = b'vH2pyVTjmeU8UrPubBe3BwGY3uVG7aR2'
