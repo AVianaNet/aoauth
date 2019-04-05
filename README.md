@@ -1,7 +1,17 @@
 # async oauth
-Dockerized aiohttp running with gunicorn + nginx and postgreSQL latest version.
+Dockerized async oauth client
 
-## Running
+## Usage:
+```
+Edit the core/conf.py configurations with your own credentials
+
+default url: http://localhost:8000/oauth/{provider}
+```
+
+## Available Providers
+google, twitter, facebook, bitbucket, github, yandex
+
+## Running:
 ```
 $ docker-compose build 
 $ docker-compose up
