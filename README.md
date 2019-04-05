@@ -1,15 +1,16 @@
 # async oauth
-Dockerized async oauth client
+Dockerized async oauth client using aioauth-client
 
 ## Usage:
 ```
 Edit the core/conf.py configurations with your own credentials
 
 default url: http://localhost:8000/oauth/{provider}
+eg.: http://localhost:8000/oauth/google
 ```
 
 ## Available Providers
-google, twitter, facebook, bitbucket, github, yandex
+Providers: google, facebook, twitter, github, bitbucket, yandex.
 
 ## Running:
 ```
