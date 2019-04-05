@@ -1,4 +1,4 @@
-# aiohttp-nginx-guinicorn-pgsql-dockerized
+# async oauth
 Dockerized aiohttp running with gunicorn + nginx and postgreSQL latest version.
 
 ## Running
