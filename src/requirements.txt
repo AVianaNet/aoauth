@@ -1,0 +1,7 @@
+aiohttp
+gunicorn
+aiohttp_cache
+aiohttp_session
+aiohttp_cors
+cryptography
+aioauth_client
